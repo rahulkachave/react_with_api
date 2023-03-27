@@ -1,17 +1,19 @@
 import './App.css';
-import Function from "./api/Functions/Function";
-import MyComponent1 from "./views/MyComponent";
+import GetAll from "./views/GetAll";
+import FetchByName from "./views/FetchByName";
+import AddEmp from "./views/AddEmp";
+import DeleteEmp from "./views/DeleteEmp";
 
 function App() {
 
   return (
     <div className="App">
 
-      <Function/>
-     <MyComponent1/>
+      <GetAll/>
+     <FetchByName/><br/>
+        <AddEmp/><br/>
+        <DeleteEmp/>
     </div>
-
-
   );
 }
 

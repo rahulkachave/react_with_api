@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import  './view.css'
-
-function Function(){
-    // console.log("function hits")
-
+function GetAll(){
         const [data, setData] = useState([]);
 
         useEffect(() => {
@@ -36,17 +33,11 @@ function Function(){
                                     <td>{item.address}</td>
                                 </tr>
                             ))}
-                            {/*<tr >*/}
-                            {/*    <td >{item.id}</td>*/}
-                            {/*    <td >{item.name}</td>*/}
-                            {/*    <td >{item.address}</td>*/}
-                            {/*</tr>*/}
+
                             </tbody>
                         </table>
                     </div>
-
-                {/*// ))}*/}
-<br/>
+                    <br/>
             </div>
         );
 
@@ -54,4 +45,4 @@ function Function(){
 
 
 
-export default Function;
+export default GetAll;
